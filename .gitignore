@@ -1,0 +1,26 @@
+# Prevent accidental commit of data files (PSA microdata must not be
+# redistributed — see Data Availability Statement in the paper).
+*.dta
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.dat
+*.zip
+*.rds
+*.RData
+
+# Common data/raw folders
+data/
+raw/
+Popcen2020/
+CPH*PUF*/
+
+# Stata / OS artifacts
+*.log
+*.smcl
+.DS_Store
+Thumbs.db
+
+# Keep placeholder files so empty output folders are still tracked
+!.gitkeep
